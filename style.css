@@ -1,0 +1,40 @@
+body{
+    
+    background-color: rgb(26, 225, 248);
+    font-family: Nunito;
+}
+h1,h3,p,li{
+    font-family: 'Nunito', sans-serif;   
+}
+form{
+    font-family: 'Nunito','sans-serif';
+}
+img{
+    width:105px;
+    height:125px;
+    border-radius:15px;
+    box-shadow: 2px 2px 9px black;
+}
+a{
+    text-decoration: none;
+    color:red;
+    font-size: 18px;
+    
+}
+hr{
+    color:rgb(137, 133, 133);
+    width:25%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 6px;
+    
+}
+#bio{
+    background-color:rgb(175, 248, 173);
+    border-bottom-left-radius: 20px ;
+    border-top-left-radius:25px;
+    border-top-right-radius: 55px;
+    border-top-width: 10px;
+    padding:15px;
+    box-shadow: 5px 5px 15px rgb(65, 65, 65);
+}
