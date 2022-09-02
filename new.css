@@ -157,7 +157,8 @@ p{
         text-align:center;
     }
     .cta-image{
-        display:none;
+        margin-top:50px;
+        margin-left:50px;
     }
 }
 #cta{
@@ -168,9 +169,8 @@ p{
 .cta-image{
     width:600px;
     height:300px;
-    float: right;
     border-radius:25px;
-    box-shadow:3px 3px 25px rgb(118, 116, 116);
+     box-shadow:3px 3px 25px rgb(118, 116, 116);
 }
 
 .cta-heading{
@@ -195,4 +195,64 @@ p{
 }
 .footer-icon{
     padding:10px 15px;
+}
+#videowrapper{  
+    position: relative;
+    overflow: hidden;
+} 
+
+#fullScreenDiv{
+    min-height: 100%; 
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(10, 10, 10);
+    position: relative;
+}
+
+#video{    
+    width: 100vw; 
+    height: auto;  
+    display: block;
+    opacity:.5;
+}
+@media (min-aspect-ratio: 16/9) {
+  #video{
+    width: 100vw; 
+    height:auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #video {
+    height: 100vh; 
+    width:auto;
+    margin-left: 50vw;
+    transform: translate(-50%);
+  }
+}
+
+#videoMessage{
+    width: 100%; 
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.styling h1{   
+    font-family: "ubuntu";
+}
+.ecell{
+    opacity:.5;
+    background-color: #070801;
+    color:white;
+}
+.event-card{
+    padding:3% 2%;
+}
+#placements{
+    padding:3% 7%;
 }
