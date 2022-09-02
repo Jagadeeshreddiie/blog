@@ -11,7 +11,7 @@ body{
     font-size:5rem;
     font-family: 'montserrat';
     color:rgb(252, 253, 251);
-    text-shadow: 5px 5px 40px rgb(20, 20, 20);
+    text-shadow: 5px 5px 40px rgb(72, 69, 69);
 }
 .brand{
     color:black;
@@ -198,7 +198,7 @@ p{
 }
 #videowrapper{  
     position: relative;
-    overflow: hidden;
+    overflow:hidden;
 } 
 
 #fullScreenDiv{
@@ -211,7 +211,7 @@ p{
 
 #video{    
     width: 100vw; 
-    height: auto;  
+    height:auto;  
     display: block;
     opacity:.5;
 }
@@ -255,4 +255,10 @@ p{
 }
 #placements{
     padding:3% 7%;
+}
+@media (max-aspect-ratio: 16/9) {
+    p{
+        font-size:28px;
+    }
+    
 }
