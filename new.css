@@ -4,7 +4,7 @@ body{
     overflow:none;
 }
 #title{
-    background-color:#68def0;
+    background-color:#83e6f5;
     color:#000;
 }
 .large-font{
@@ -71,6 +71,9 @@ p{
 .nav-link{
     font-size:1.2rem;
 }
+.nav-drop{
+    background-color:#e0fa6a;
+}
 
 /* Download Buttons */
 .download-btn{
@@ -110,7 +113,7 @@ p{
 
 .carousel-item{
     padding:6% 15%;
-    background-color:#66e1f4;
+    background-color:#6bd3f3;
     text-align: center;
 }
 
@@ -195,6 +198,9 @@ p{
 }
 .footer-icon{
     padding:10px 15px;
+}
+#footer a{
+    margin:0 15px;
 }
 #videowrapper{  
     position: relative;
