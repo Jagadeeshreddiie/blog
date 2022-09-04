@@ -3,6 +3,17 @@ body{
     font-family:'montserrat';
     overflow:none;
 }
+.head p{
+    color:black;
+    font-size:2.5rem;
+    margin-bottom:0;
+}
+.head{
+    background-color:#c5c9ca;
+}
+.inner-head{
+    text-align:center;
+}
 #title{
     background-color:#83e6f5;
     color:#000;
@@ -56,7 +67,7 @@ p{
 /* Navigation Bar */
 .navbar{
     padding:0 60px;
-    background-color:white;
+    background-color:#e0e6e6;
 }
 .navbar-brand{
     font-family:"Ubuntu";
@@ -257,7 +268,7 @@ p{
     color:white;
 }
 .event-card{
-    padding:3% 2%;
+    padding:2% 3%;
 }
 #placements{
     padding:3% 7%;
@@ -266,5 +277,25 @@ p{
     p{
         font-size:28px;
     }
+    .developer-contact p{
+        font-size:16px;
+    }
     
+}
+.developer-contact{
+    background-color:#f4eef0;
+    border:1px solid black;
+    border-radius:20px;
+    margin-top:30px;
+    margin-left:20px;
+    padding:2%;
+}
+.developer-contact p{
+    color:black;
+}
+.icon-footer{
+    color:#eb260c;
+}
+.contact-me{
+    padding:10% 3% 0;
 }
