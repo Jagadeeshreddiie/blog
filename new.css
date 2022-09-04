@@ -7,15 +7,17 @@ body{
     color:black;
     font-size:2.5rem;
     margin-bottom:0;
+    font-family: 'Montserrat';
 }
 .head{
     background-color:#c5c9ca;
+    padding-bottom:20px;
 }
 .inner-head{
     text-align:center;
 }
 #title{
-    background-color:#83e6f5;
+    background-color:#7ee5f5;
     color:#000;
 }
 .large-font{
@@ -106,6 +108,36 @@ p{
     
 }
 
+#hod{
+    padding:7% 5%;
+    background-color:rgb(249, 235, 235);
+    line-height:2;
+}
+#hod h2{
+    color:#000;
+
+}
+#hod p{
+    padding:50px 50px  0;
+    color:black;
+}
+.hod-img{
+    margin-left:150px;
+    width:300px;
+    height:400px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 30px rgb(87, 87, 87);
+}
+#hod hr{
+    width:300px;
+    text-align:left;
+    border-top:5px solid rgb(16, 8, 251);
+}
+.large-hod{
+    color:rgb(4, 134, 4);
+    font-size:3rem;
+    /* text-shadow: 1px 2px 30px rgb(187, 185, 185); */
+}
 #features{
     text-align:center;
     position:relative;
@@ -147,6 +179,11 @@ p{
     
     padding:100px;
 }
+#pricing hr{
+    width:300px;
+    text-align:left;
+    border-top:5px solid rgb(20, 8, 251);
+}
 #pricing h2{
     color:#000;
 }
@@ -171,13 +208,9 @@ p{
     #title{
         text-align:center;
     }
-    .cta-image{
-        margin-top:50px;
-        margin-left:50px;
-    }
 }
 #cta{
-    background-color:#ff4c68;
+    background-color:#f8e3e6;
     padding:7%;
     color:white;
 }
@@ -185,18 +218,25 @@ p{
     width:600px;
     height:300px;
     border-radius:25px;
-     box-shadow:3px 3px 25px rgb(118, 116, 116);
+     box-shadow:3px 3px 25px rgb(207, 206, 206);
 }
 
-.cta-heading{
-    font-family: "montserrat";
-    font-size:3rem;
-    margin-bottom:30px;
-    transition: color .25s;
-}
+
+
 .cta-para{
-    color:white;
+    color:rgb(7, 6, 6);
     line-height:2.5;
+}
+.about-us h1{
+    color:rgb(3, 188, 3);
+}
+.about-us hr{
+    width:300px;
+    text-align:left;
+    border-top:5px solid rgb(6, 8, 9);
+}
+.about-us p{
+    padding:50px 70px  0;
 }
 .footer-btn{
     transition: .5s;
@@ -274,6 +314,14 @@ p{
 #placements{
     padding:3% 7%;
 }
+.placement-body hr{
+    width:400px;
+    text-align:left;
+    border-top:5px solid rgb(1, 41, 241);
+}
+.placement-body p{
+    padding:50px 30px  0;
+}
 @media (max-aspect-ratio: 16/9) {
     p{
         font-size:28px;
@@ -284,7 +332,18 @@ p{
     .placement-img{
         text-align:center;
     }
-    
+    .placement-img img{
+        width:90%;
+        height:auto;
+        margin:30px 0;
+    }
+    .hod-div{
+        text-align:center;
+    }
+    .hod-img{
+        margin:auto;
+        margin-top:30px;
+    }
 }
 .developer-contact{
     background-color:#f4eef0;
