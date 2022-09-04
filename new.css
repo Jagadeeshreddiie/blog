@@ -1,0 +1,364 @@
+
+body{
+    font-family:'montserrat';
+    overflow:none;
+}
+.head p{
+    color:black;
+    font-size:2.5rem;
+    margin-bottom:0;
+    font-family: 'Montserrat';
+}
+.head{
+    background-color:#c5c9ca;
+    padding-bottom:20px;
+}
+.inner-head{
+    text-align:center;
+}
+#title{
+    background-color:#7ee5f5;
+    color:#000;
+}
+.large-font{
+    font-size:5rem;
+    font-family: 'montserrat';
+    color:rgb(252, 253, 251);
+    text-shadow: 5px 5px 40px rgb(72, 69, 69);
+}
+.brand{
+    color:black;
+}
+.material{
+    margin:25px;
+}
+.faculty{
+    display:none;
+}
+a{
+    text-decoration:none; 
+    color:black;
+}
+h1{
+    font-family:"Montserrat";
+    font-size:3.5rem;
+    line-height:1.5;
+}
+h2{
+    font-family:"Montserrat";
+    font-size:3rem;
+    color:#fff;
+}
+p{
+    color:grey;
+}
+.c-fluid{
+    padding:3% 15% 7%;
+}
+.cse{
+    position:absolute;
+    width:530px;
+    right:10%;
+    border-radius:100%;
+    transition: .5s;
+}
+.cse:hover{
+    box-shadow:1px 1px 100px rgb(4, 3, 3);
+}
+
+/* Navigation Bar */
+.navbar{
+    padding:0 60px;
+    background-color:#e0e6e6;
+}
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size: 2rem;
+    font-weight:bold;
+    margin-left:30px;
+}
+.nav-item{
+    padding:0 18px;
+    color:black;
+}
+.nav-link{
+    font-size:1.2rem;
+}
+.nav-drop{
+    background-color:#e0fa6a;
+}
+
+/* Download Buttons */
+.download-btn{
+    margin:5% 3% 0 0;
+    transition: .5s;
+}
+.download-btn:hover{
+    box-shadow: 1px 1px 10px black;
+}
+
+/* features */
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#070801;
+    transition: .5s;
+    
+}
+
+#hod{
+    padding:7% 5%;
+    background-color:rgb(249, 235, 235);
+    line-height:2;
+}
+#hod h2{
+    color:#000;
+
+}
+#hod p{
+    padding:50px 50px  0;
+    color:black;
+}
+.hod-img{
+    margin-left:150px;
+    width:300px;
+    height:400px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 30px rgb(87, 87, 87);
+}
+#hod hr{
+    width:300px;
+    text-align:left;
+    border-top:5px solid rgb(16, 8, 251);
+}
+.large-hod{
+    color:rgb(4, 134, 4);
+    font-size:3rem;
+    /* text-shadow: 1px 2px 30px rgb(187, 185, 185); */
+}
+#features{
+    text-align:center;
+    position:relative;
+    z-index:1;
+    background-color:#fff;
+}
+.feature-box{
+    text-align:center;
+    padding:5%;
+    transition: box-shadow 1s;
+}  
+.feature-box:hover{
+    box-shadow: 1px 1px 10px black;
+    transition:.5s;
+}  
+
+.carousel-item{
+    padding:6% 15%;
+    background-color:#6bd3f3;
+    text-align: center;
+    height:1200px;
+}
+
+
+/* Press companies */
+
+#press{
+    background-color:#ef8172;
+    padding-bottom:3%;
+    text-align:center;
+}
+.press-img{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+/* Pricing */
+#pricing{ 
+    
+    padding:100px;
+}
+#pricing hr{
+    width:300px;
+    text-align:left;
+    border-top:5px solid rgb(20, 8, 251);
+}
+#pricing h2{
+    color:#000;
+}
+
+.card{
+    text-align:center;
+    
+}
+.price{
+    padding:3% 2%;
+}
+.stacking{
+    position:relative;
+}
+
+@media (max-width:990px){
+    .cse{
+        position:static;
+        width:420px;
+        margin-top:1.5rem;
+    }
+    #title{
+        text-align:center;
+    }
+}
+#cta{
+    background-color:#f8e3e6;
+    padding:7%;
+    color:white;
+}
+.cta-image{
+    width:600px;
+    height:300px;
+    border-radius:25px;
+     box-shadow:3px 3px 25px rgb(207, 206, 206);
+}
+
+
+
+.cta-para{
+    color:rgb(7, 6, 6);
+    line-height:2.5;
+}
+.about-us h1{
+    color:rgb(3, 188, 3);
+}
+.about-us hr{
+    width:300px;
+    text-align:left;
+    border-top:5px solid rgb(6, 8, 9);
+}
+.about-us p{
+    padding:50px 70px  0;
+}
+.footer-btn{
+    transition: .5s;
+}
+.footer-btn:hover{
+    box-shadow: 1px 1px 10px black;
+}
+#footer{
+    text-align:center;
+    padding:5%;
+}
+.footer-icon{
+    padding:10px 15px;
+}
+#footer a{
+    margin:0 15px;
+}
+#videowrapper{  
+    position: relative;
+    overflow:hidden;
+} 
+
+#fullScreenDiv{
+    min-height: 100%; 
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(10, 10, 10);
+    position: relative;
+}
+
+#video{    
+    width: 100vw; 
+    height:auto;  
+    display: block;
+    opacity:.5;
+}
+@media (min-aspect-ratio: 16/9) {
+  #video{
+    width: 100vw; 
+    height:auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #video {
+    height: 100vh; 
+    width:auto;
+    margin-left: 50vw;
+    transform: translate(-50%);
+  }
+}
+
+#videoMessage{
+    width: 100%; 
+    height: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.styling h1{   
+    font-family: "ubuntu";
+}
+.ecell{
+    opacity:.5;
+    background-color: #070801;
+    color:white;
+}
+.event-card{
+    padding:2% 3%;
+}
+#placements{
+    padding:3% 7%;
+}
+.placement-body hr{
+    width:400px;
+    text-align:left;
+    border-top:5px solid rgb(1, 41, 241);
+}
+.placement-body p{
+    padding:50px 30px  0;
+}
+@media (max-aspect-ratio: 16/9) {
+    p{
+        font-size:28px;
+    }
+    .developer-contact p{
+        font-size:16px;
+    }
+    .placement-img{
+        text-align:center;
+    }
+    .placement-img img{
+        width:90%;
+        height:auto;
+        margin:30px 0;
+    }
+    .hod-div{
+        text-align:center;
+    }
+    .hod-img{
+        margin:auto;
+        margin-top:30px;
+    }
+}
+.developer-contact{
+    background-color:#f4eef0;
+    border:1px solid black;
+    border-radius:20px;
+    margin-top:30px;
+    margin-left:20px;
+    padding:2%;
+}
+.developer-contact p{
+    color:black;
+}
+.icon-footer{
+    color:#eb260c;
+}
+.contact-me{
+    padding:10% 3% 0;
+}
