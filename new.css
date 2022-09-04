@@ -126,6 +126,7 @@ p{
     padding:6% 15%;
     background-color:#6bd3f3;
     text-align: center;
+    height:1200px;
 }
 
 
@@ -279,6 +280,9 @@ p{
     }
     .developer-contact p{
         font-size:16px;
+    }
+    .placement-img{
+        text-align:center;
     }
     
 }
