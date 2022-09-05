@@ -23,8 +23,8 @@ body{
 .large-font{
     font-size:5rem;
     font-family: 'montserrat';
-    color:rgb(252, 253, 251);
-    text-shadow: 5px 5px 40px rgb(72, 69, 69);
+    color:rgb(251, 250, 250);
+    text-shadow: 5px 25px 40px rgb(135, 130, 130);
 }
 .brand{
     color:black;
